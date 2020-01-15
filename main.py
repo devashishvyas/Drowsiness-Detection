@@ -43,17 +43,6 @@ ap.add_argument("-w", "--webcam", type=int, default=0,
 args = vars(ap.parse_args())
 
 
-
-45
-46
-47
-48
-49
-50
-51
-52
-53
-54
 # define two constants, one for the eye aspect ratio to indicate
 # blink and then a second constant for the number of consecutive
 # frames the eye must be below the threshold for to set off the
@@ -66,17 +55,6 @@ EYE_AR_CONSEC_FRAMES = 48
 COUNTER = 0
 ALARM_ON = False
 
-
-45
-46
-47
-48
-49
-50
-51
-52
-53
-54
 # define two constants, one for the eye aspect ratio to indicate
 # blink and then a second constant for the number of consecutive
 # frames the eye must be below the threshold for to set off the
